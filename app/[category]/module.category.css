@@ -1,0 +1,143 @@
+.Breadcrumbs ul {
+    list-style: none;
+    display: flex;
+    font-size: 14px;
+    color: #FF9800;
+
+}
+
+.Sidenav {
+    padding: 0 5px;
+    font-size: 14px;
+}
+
+.Sidenav h6 {   
+    color: #FF9800;
+}
+
+.Sidenav h5 {
+    color: #FF9800;
+}
+.Sidenav ul{
+    list-style: none;
+}
+.Sidenav .accordion-item{
+    border:none;
+}
+.Sidenav .accordion-body{
+    padding-top: 0;
+}
+.Sidenav .accordion-body ul{
+    padding: 0;
+}
+.accordion{
+    font-size: 14px;
+}
+.Sidenav.accordion-button:active{
+    box-shadow: none;
+    background-color: transparent;
+}
+.Sidenav .accordion-item .show{
+    display: block;
+}
+.Sidenav .accordion-collapse{
+    display: none;
+}
+.accordion-button {
+    border: 0;
+    font-size: 14px;
+}
+.accordion-button:focus{
+    background-color: transparent;
+    box-shadow: none;
+
+}
+.PaginationTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.select{
+    padding: 2px 5px;
+    margin-left: 7px;
+}
+.view-icons{
+    font-size: 20px;
+    text-align: right;
+}
+.product-search{
+    padding:0 8px;
+    font-size: 16px;
+}
+.pagination a{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.pagination a:hover{
+    color: #000;
+}
+.ProductSorting{
+   margin: 10px 0; 
+   font-size: 14px;
+}
+.SortingSelect, .ViewSelect{
+    font-size: 14px;
+}
+.ProductOnPage{
+    font-size: 14px;
+}
+.ProductsCards {
+    margin-top: 10px;
+}
+
+.SingleProduct {
+    max-width: 300px;
+    border: 1px solid lightblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.SingleProduct .prod-image {
+    width: 290px;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SingleProduct .prod-image img {
+    width: 100%;
+    max-height: 290px;
+    height: auto;
+}
+
+.SingleProduct .prod-detail {
+    padding: 10px;
+    width: 100%;
+}
+
+.SingleProduct .prod-brand {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: gray;
+}
+
+.SingleProduct .name {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    height: 80px;
+}
+
+.SingleProduct .stock {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: green;
+}
